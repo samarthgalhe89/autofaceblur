@@ -38,18 +38,19 @@ venv\Scripts\Activate.ps1
 # Windows (cmd)
 venv\Scripts\activate.bat
 
+⚙️ Setup Instructions
+1️⃣ Activate Virtual Environment
+venv\Scripts\activate.bat
 
-#Install dependencies
+2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-
-Example requirements.txt:
-
+🧾 Example requirements.txt
 opencv-python>=4.6.0
 streamlit>=1.20.0
 tqdm>=4.60.0
 
-=> Run the App (Streamlit UI)
+🚀 Run the App (Streamlit UI)
 Start the app:
 streamlit run app.py
 
@@ -57,7 +58,7 @@ streamlit run app.py
 Once started, open the link shown in the terminal — usually:
 👉 http://localhost:8501
 
-#App Workflow
+🧠 App Workflow
 
 Upload a Video: Supported formats → .mp4, .avi, .mov
 
