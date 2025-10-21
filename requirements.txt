@@ -1,0 +1,5 @@
+# Core dependencies for AutoFaceBlur
+opencv-python==4.9.0.80
+streamlit==1.38.0
+tqdm==4.66.4
+numpy==1.26.4
